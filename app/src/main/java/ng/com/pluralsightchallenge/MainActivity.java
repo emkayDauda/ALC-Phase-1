@@ -19,6 +19,11 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, AboutAlc.class));
                 break;
             }
+
+            case R.id.profile: {
+                startActivity(new Intent(MainActivity.this, Profile.class));
+                break;
+            }
         }
     }
 }
