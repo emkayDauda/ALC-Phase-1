@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".Profile" android:label="My Profile"/>
+        <activity android:name=".Profile" android:label="My Profile" android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".AboutAlc"
             android:label="About ALC"
